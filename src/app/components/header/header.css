@@ -1,0 +1,25 @@
+header {
+  width: 1200px;
+  height: 75px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+nav > a {
+  color: white;
+  background: rgb(195, 195, 195);
+  padding: 7px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+nav > a.active {
+  background: rgb(161, 161, 161);
+}
